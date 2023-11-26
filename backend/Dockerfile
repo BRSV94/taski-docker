@@ -27,4 +27,4 @@ COPY . .
 # При старте контейнера запустить сервер разработки.
 # Локально: CMD ["python", "manage.py", "runserver", "0:8000"]
 # В контейнере:
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi"] 
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi"]
